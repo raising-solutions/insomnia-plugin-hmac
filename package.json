@@ -1,0 +1,24 @@
+{
+  "name": "insomnia-plugin-hmac",
+  "version": "1.0.0",
+  "description": "Insomnia Plugin for hmac hashing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --silent"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raising-solutions/insomnia-plugin-hmac.git"
+  },
+  "author": "Rodrigo Del Bianco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raising-solutions/insomnia-plugin-hmac/issues"
+  },
+  "homepage": "https://github.com/raising-solutions/insomnia-plugin-hmac#readme",
+  "insomnia": {                    
+    "name": "hmac",
+    "displayName": "HMAC Plugin", 
+    "description": "Insomnia Plugin for hmac hashing"
+  }
+}
