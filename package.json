@@ -16,9 +16,12 @@
     "url": "https://github.com/raising-solutions/insomnia-plugin-hmac/issues"
   },
   "homepage": "https://github.com/raising-solutions/insomnia-plugin-hmac#readme",
-  "insomnia": {                    
+  "insomnia": {
     "name": "hmac",
-    "displayName": "HMAC Plugin", 
+    "displayName": "HMAC Plugin",
     "description": "Insomnia Plugin for hmac hashing"
+  },
+  "dependencies": {
+    "jssha": "^3.1.0"
   }
 }
